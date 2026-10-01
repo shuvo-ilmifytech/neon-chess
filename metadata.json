@@ -1,0 +1,6 @@
+{
+  "name": "Neon Gambit: Cyberpunk Chess",
+  "description": "A futuristic, holographic multiplayer chess game featuring real-time WebSocket networking, tactical cyber AI bots, pass-and-play, neon aesthetics, and immersive sound effects.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

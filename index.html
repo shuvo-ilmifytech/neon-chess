@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neon Gambit: Cyberpunk Chess</title>
+    <meta name="description" content="A futuristic, holographic multiplayer chess game featuring real-time WebSocket networking, tactical cyber AI bots, pass-and-play, neon aesthetics, and immersive sound effects." />
+    <meta property="og:title" content="Neon Gambit: Cyberpunk Chess" />
+    <meta property="og:description" content="A futuristic, holographic multiplayer chess game featuring real-time WebSocket networking, tactical cyber AI bots, pass-and-play, neon aesthetics, and immersive sound effects." />
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              cyber: ['Orbitron', 'sans-serif'],
+              mono: ['JetBrains Mono', 'monospace', 'Courier New'],
+              body: ['Rajdhani', 'sans-serif']
+            },
+            colors: {
+              cyber: {
+                dark: '#030712',
+                panel: '#090d16',
+                cyan: '#06b6d4',
+                cyanGlow: '#22d3ee',
+                magenta: '#d946ef',
+                magentaGlow: '#e879f9',
+                gold: '#eab308'
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/index.css">
+  </head>
+  <body class="bg-[#030712] text-slate-100 antialiased selection:bg-cyan-500 selection:text-black">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
